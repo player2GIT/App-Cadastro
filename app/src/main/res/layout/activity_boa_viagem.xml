@@ -46,12 +46,11 @@
             android:layout_width="135dp"
             android:layout_height="135dp"
             android:src="@drawable/world"/>
-        <TextView
+        <Button
+            android:id="@+id/btNovaViagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nova Viagem"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp"/>
+            android:text="Nova Viagem"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"

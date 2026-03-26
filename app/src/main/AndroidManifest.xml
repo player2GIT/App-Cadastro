@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Teste2">
         <activity
+            android:name=".ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_listView"
+            android:exported="false"
+            android:label="@string/title_activity_list_view"
+            android:theme="@style/Theme.Teste2" />
+        <activity
             android:name=".Cadastro"
             android:exported="false" />
         <activity

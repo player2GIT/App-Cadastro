@@ -13,10 +13,16 @@ class Boa_Viagem : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_boa_viagem)
-        val button = findViewById<Button>(R.id.Gasto)
-        button.setOnClickListener {
+        val buttonNovoGasto = findViewById<Button>(R.id.Gasto)
+        buttonNovoGasto.setOnClickListener {
             val intentSegTela = Intent(this, Cadastro::class.java)
             startActivity(intentSegTela)
+        }
+
+        val buttonNovaViagem = findViewById<Button>(R.id.btNovaViagem)
+        buttonNovaViagem.setOnClickListener {
+            val intentTerceiraTela = Intent(this, ListViewActivity::class.java)
+            startActivity(intentTerceiraTela)
         }
     }
 }
